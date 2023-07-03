@@ -1,7 +1,6 @@
-import otherlib
-
-import warnings
+import numpy as np
 
 
 def warnfunc():
-    warnings.warn(DeprecationWarning("warnfunc is deprecated"))
+    print("scalar(list) in numpy")
+    np.float64(np.array([1.5]))
